@@ -6,6 +6,8 @@
 --   command = "tabdo wincmd =",
 -- })
 
+vim.cmd("set relativenumber")
+
 -- make tab into 4 spaces
 vim.cmd("set tabstop=4")
 -- make format use 4 spaces
