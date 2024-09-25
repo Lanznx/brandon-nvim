@@ -1,28 +1,5 @@
 local M = {}
 
-M.copilot = {
-  -- Possible configurable fields can be found on:
-  -- https://github.com/zbirenbaum/copilot.lua#setup-and-configuration
-  suggestion = {
-    enable = false,
-  },
-  panel = {
-    enable = false,
-  },
-  filetypes = {
-    lua = true,
-    yaml = false,
-    markdown = true,
-    help = false,
-    gitcommit = false,
-    gitrebase = false,
-    hgcommit = false,
-    svn = false,
-    cvs = false,
-    ["."] = false,
-  },
-}
-
 M.treesitter = {
   ensure_installed = {
     "vim",
